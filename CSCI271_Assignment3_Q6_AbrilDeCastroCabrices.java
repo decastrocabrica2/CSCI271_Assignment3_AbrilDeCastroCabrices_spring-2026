@@ -75,7 +75,7 @@ public class CSCI271_Assignment3_Q6_AbrilDeCastroCabrices
 	{ // main start bracket
 	    Scanner input = new Scanner(System.in); //makes scanner
 	  
-		System.out.println("size: "); //ask for the size
+		System.out.println("Please enter array size: "); //ask for the size
 		
 		int size = input.nextInt(); // ask for the size of the array
 		
