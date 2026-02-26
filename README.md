@@ -46,7 +46,7 @@ the first character at the end, and the recursion call will keep going until the
 substring was used to take away the first charcter 
 in the given string, therefore the time complexity is O(n^2)
 
-# question 6 
+# Question 6 
 
 In question 6 we were tasked to store values in an array and only add the even values. The
 function uses the modulo operator to check if the value in a given index is even. If that 
