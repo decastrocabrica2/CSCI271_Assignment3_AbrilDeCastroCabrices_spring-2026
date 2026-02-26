@@ -83,6 +83,12 @@ public class CSCI271_Assignment3_Q5_AbrilDeCastroCabrices
 	    
 		System.out.println("The reversed version of " + word + " is: " + A); //outputs the stored recursion 
 		
+
+               //test with the string hello should return olleh
+                System.out.println("*******************************************");
+                System.out.println("Test the string:  hello");
+                String test = "hello";
+                System.out.println("TEST: " + recursion(test)); 
 		input.close();
 	} // main end bracket
 }

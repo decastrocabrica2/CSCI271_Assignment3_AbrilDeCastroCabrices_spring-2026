@@ -89,7 +89,12 @@ public class CSCI271_Assignment3_Q6_AbrilDeCastroCabrices
 	    
 	    int b = recursion(numbers, 0); // calls recursion and passes 0
 	    System.out.println("The sum of the even numbers is: " + b);  //prints the result
-		
+            
+            //test array, and the sum should be 30 since its only adding the even numbers
+            System.out.println("********************************");
+            System.out.println("Test the array {1,2,3,4,5,6,7,8,9,10}");
+            int [] test = {1,2,3,4,5,6,7,8,9,10};
+		System.out.println( "TEST CASE: " + recursion(test,0));
 		input.close();
 	} // main end bracket
 }

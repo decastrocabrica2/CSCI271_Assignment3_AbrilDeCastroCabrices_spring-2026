@@ -86,7 +86,12 @@ public class CSCI271_Assignment3_Q2_AbrilDeCastroCabrices
 	    
 	    //prints the stored recursion
 		System.out.println(c + " is repeated " + A + " times.");
-		//System.out.println(letter);
+		
+             
+            ///test case: passess helloworld and checks how many w it has
+            System.out.println("************************************************");
+            System.out.println("Test the word: helloworld"); 
+            System.out.println("TEST: " + recursion("helloworld", 'w'));
 		input.close();
 	} // main end bracket
 }

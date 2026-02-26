@@ -75,6 +75,10 @@ public class CSCI271_Assignment3_Q1_AbrilDeCastroCabrices
 	    
 		System.out.println("recursive = " + A);  //out puts the stored recursion call
 		
-		input.close(); //closes the input
+        
+         System.out.println("**********************************************");
+         System.out.println("Tests the word pringle");
+         System.out.println("TEST: " + recursion("pringles"));        //tests the word pringles should return 8
+         input.close(); //closes the input
 	} // main end bracket
 }

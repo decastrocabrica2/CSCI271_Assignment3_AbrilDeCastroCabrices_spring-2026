@@ -86,7 +86,13 @@ public class CSCI271_Assignment3_Q4_AbrilDeCastroCabrices
 	    int A = recursion(n, d); //stores the recursion 
 	    
 		System.out.println( d + " is repeated " + A + " times"); //prints the stored recursion
-		//System.out.println(letter);
+		
+                    
+                 
+                System.out.println("**************************************");
+                System.out.println("test: 1233456777, 7");
+                System.out.println("TEST:" + recursion(1233456777,7)); //tests the number 1233456777 and has 7 as the single digit being passed
+                                                                      //this should return as  3 7's being in the long number
 		input.close();
 	} // main end bracket
 }

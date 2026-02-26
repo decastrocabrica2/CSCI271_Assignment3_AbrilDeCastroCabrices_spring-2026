@@ -80,7 +80,13 @@ public class CSCI271_Assignment3_Q3_AbrilDeCastroCabrices
 	    } 
 	    int b = recursion(numbers, 0); // calls recursion and passes 0
 	    System.out.println("The max in your list is: " + b);  //prints the result
-		
+
+              ///test cases, the test array is  is passed and the max of the array should be 12
+               System.out.println("**********************************************");
+            int[] test = {9,10,11,12,10,9};
+             
+            System.out.println("Tests the array: {9,10,11,12,10,9}");
+            System.out.println("Test: " + recursion(test,0));
 		input.close();
 	} // main end bracket
 }
