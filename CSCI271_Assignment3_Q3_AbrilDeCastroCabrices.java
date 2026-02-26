@@ -68,18 +68,18 @@ public class CSCI271_Assignment3_Q3_AbrilDeCastroCabrices
 	{ // main start bracket
 	    Scanner input = new Scanner(System.in); // makes scanner
 	  
-		System.out.println("Array size: "); //asks for size
+		System.out.println("Please enter array size: "); //asks for size
 		
 		int size = input.nextInt(); // ask for the size of the array
 		
 	    int[] numbers = new int[size]; // make the array the size from the input
 	    
-	    System.out.println("enter your numbers: ");  //this for loop allows you to input a certain amount of 
+	    System.out.println("Enter your numbered list: ");  //this for loop allows you to input a certain amount of 
 	    for(int i =0; i < numbers.length; i++){      //numbers based on the input size of the array
 	        	numbers[i] = input.nextInt();  //stores
 	    } 
 	    int b = recursion(numbers, 0); // calls recursion and passes 0
-	    System.out.println("max" + b);  //prints the result
+	    System.out.println("The max in your list is: " + b);  //prints the result
 		
 		input.close();
 	} // main end bracket
