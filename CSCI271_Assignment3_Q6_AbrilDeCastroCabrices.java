@@ -88,7 +88,7 @@ public class CSCI271_Assignment3_Q6_AbrilDeCastroCabrices
 	    } 
 	    
 	    int b = recursion(numbers, 0); // calls recursion and passes 0
-	    System.out.println("sum " + b);  //prints the result
+	    System.out.println("The sum of the even numbers is: " + b);  //prints the result
 		
 		input.close();
 	} // main end bracket
