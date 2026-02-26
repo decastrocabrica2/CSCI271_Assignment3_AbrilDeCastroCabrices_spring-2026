@@ -78,14 +78,14 @@ public class CSCI271_Assignment3_Q4_AbrilDeCastroCabrices
 	{ // main start bracket
 	
 	 Scanner input = new Scanner(System.in); //makes the scanner
-		System.out.println("enter your number: ");  //ask for the long number
+		System.out.println("Enter your number: ");  //ask for the long number
 		long n = input.nextLong(); // stores the number
 		System.out.println("enter your single digit: "); //enter the single digit
 	    int d = input.nextInt(); //stores the single digit
 	   
 	    int A = recursion(n, d); //stores the recursion 
 	    
-		System.out.println(A); //prints the stored recursion
+		System.out.println( d + " is repeated " + A + " times"); //prints the stored recursion
 		//System.out.println(letter);
 		input.close();
 	} // main end bracket
