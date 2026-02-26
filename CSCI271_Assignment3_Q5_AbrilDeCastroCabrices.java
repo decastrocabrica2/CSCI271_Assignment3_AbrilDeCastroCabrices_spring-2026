@@ -81,7 +81,7 @@ public class CSCI271_Assignment3_Q5_AbrilDeCastroCabrices
 	    String word = input.nextLine(); //stores the word
 	    String A = recursion(word); // stores the recursion 
 	    
-		System.out.println("recursive = " + A); //outputs the stored recursion 
+		System.out.println("The reversed version of " + word + " is: " + A); //outputs the stored recursion 
 		
 		input.close();
 	} // main end bracket
