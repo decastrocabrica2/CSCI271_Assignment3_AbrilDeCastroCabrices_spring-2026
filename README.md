@@ -17,14 +17,14 @@ In question 2 the task given was to find how many times a given letter was repea
 in a given word. To reduce the ambiguity, when the user enters their word and character, they are both set to upper case.
 Substring was used to be able to compare a character at a given index, and once done it would be erased.
 The recursive call makes one call per character which gives O(n) time, but because substring was used
-it ends up with a new string each call.
+it ends up with a new string each call.  
 **The complexity: O(n^2)**
 
 # Question 3
 
 In question 3 the task given was to find the max number in a array given by the user.
 the function visits each element in the array exactly one time, by comparing them using the arrays' index and using 
-the Math.max method. 
+the Math.max method.  
 **Time complexity: O(n)**
 
 # Question 4
