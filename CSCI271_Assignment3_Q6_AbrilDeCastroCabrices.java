@@ -56,8 +56,8 @@ public class CSCI271_Assignment3_Q6_AbrilDeCastroCabrices
         //base case
         if(i == n.length) 
         {
-            //checks if the index is currently at the last index
-            return 0; // returns the last thing in the array
+            //checks if the index is currently past the array 
+            return 0; // returns zero if it is
         }
         
        if ( n[i] % 2 == 0){ //if this is met then that means the number is a even number
