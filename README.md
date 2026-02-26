@@ -27,6 +27,7 @@ it ends up with a new string each call.
 In question 3 the task given was to find the max number in a array given by the user.
 the function visits each element in the array exactly one time, by comparing them using the arrays' index and using 
 the Math.max method.  
+
 **Time complexity: O(n)**
 
 # Question 4
