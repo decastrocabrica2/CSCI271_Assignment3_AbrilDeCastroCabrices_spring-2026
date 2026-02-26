@@ -85,7 +85,7 @@ public class CSCI271_Assignment3_Q2_AbrilDeCastroCabrices
 	    int A = recursion(word, letter);
 	    
 	    //prints the stored recursion
-		System.out.println(A);
+		System.out.println(c + " is repeated " + A + " times.");
 		//System.out.println(letter);
 		input.close();
 	} // main end bracket
