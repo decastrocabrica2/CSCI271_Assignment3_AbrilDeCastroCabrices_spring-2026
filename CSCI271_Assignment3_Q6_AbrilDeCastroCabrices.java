@@ -54,10 +54,10 @@ public class CSCI271_Assignment3_Q6_AbrilDeCastroCabrices
   public static int recursion(int[] n, int i) {  // we pass the arr, and we pass i as 0 so we can use it as an index
         
         //base case
-        if(i == n.length - 1) 
+        if(i == n.length) 
         {
             //checks if the index is currently at the last index
-            return n[i]; // returns the last thing in the array
+            return 0; // returns the last thing in the array
         }
         
        if ( n[i] % 2 == 0){ //if this is met then that means the number is a even number
